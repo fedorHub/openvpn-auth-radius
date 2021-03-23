@@ -1,0 +1,5 @@
+## For Ubuntu 20.04
+clone git
+apt install g++ libgcrypt20-dev
+make
+cp ./radiusplugin.so /usr/lib/openvpn/radiusplugin.so
