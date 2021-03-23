@@ -317,10 +317,7 @@ extern "C"
 				}
 				else if ( get_env ( "common_name", envp ) ==NULL )
 				{
-					if ( context->conf.getClientCertNotRequired() == false )
-					{
-						throw Exception ( "RADIUS-PLUGIN: FOREGROUND: common_name is not defined\n" );
-					}
+
 				}
                                 else if ( get_env ( "untrusted_port", envp ) ==NULL )
 				{
